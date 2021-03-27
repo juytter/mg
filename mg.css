@@ -1,7 +1,7 @@
 
 .logo {
   margin: 0  auto;
-  max-width: 20em;
+  max-width: 35em;
 }
 
 .description {
@@ -10,4 +10,8 @@
 }
 .description-note {
   color: gray;
+}
+
+.red {
+  color: darkred;
 }
