@@ -8,10 +8,8 @@ a:hover{color:red;}
 
 /* header {background-color:#ecfff4} */
 
-
-
 nav .container {
-  /* padding:0 5vw; */
+  padding: 0 5vw;
 }
 nav ul {
   list-style: none;
@@ -29,22 +27,7 @@ nav li {
 
 .logo-mg {
   max-width: 40em;
-  /* margin: 0 auto;
-  text-align: center; */
 }
-
-
-/* .logo-bs {width:10em;}
-@media screen and (min-width: 40em) {
-  .logo-bs {
-    float:right;width:10em;
-  }
-} */
-/* .actu, .equipe {
-  margin: 0  auto;
-  width: 38em;
-} */
-
 
 .description-note { color: gray; }
 
@@ -53,7 +36,10 @@ nav li {
   background-color: #fffde7;
 }
 
-.equipe {background-color:#f9ffff}
+.equipe { background-color:#f9ffff }
+.equipe-data {
+  display: inline-block;
+}
 
 .equipe .row {margin-bottom: 1.5em ;}
 
@@ -84,7 +70,6 @@ nav li {
 .col {
   /* flex: auto; */
   padding: .5em;
-
 }
 
 .fan-art { background-color: #eeffef}
